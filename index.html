@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form de prueba</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+        <div class="container">
+        <h3>Regístrate en los formularios</h3>
+        <div class="buttons">
+            <button class="google-btn">
+                <picture>
+                    <img src="./img/Flat-design-Google-logo-design-Vector-PNG.png" alt="Google">
+                </picture>
+                <span>Regístrate con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture>
+                    <img src="./img/twitter-logo-png-green-4.png" alt="Twitter">
+                </picture>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O ... </span>
+            <hr>
+        </div>
+        <form action="" method="get">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Nombre:</span>
+                    <input type="text" id="name" name="name">
+                </label>
+                <label for="username">
+                    <span>Nombre de usuario:</span>
+                    <input type="text" name="username" id="username">
+                </label>
+            </div>
+            <div class="email">
+                <label for="email">
+                    <span>Email:</span>
+                    <input type="email" id="email" name="email">
+                </label>
+                <label for="pass">
+                    <span>Contraseña:</span>
+                    <input type="password" id="pass" name="pass" placeholder="6+ caracteres">
+                </label>
+                <label for="checkbox" class="checkbox-label" >
+                    <input type="checkbox" id="checkbox">
+                    <span>Al crear una cuenta, acepto las condiciones de uso.</span>
+                </label>
+                <button type="submit" class="submit-btn">Crear cuenta</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
